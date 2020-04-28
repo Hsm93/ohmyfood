@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*------------ EFFET ZOOM DES MENUS DE INDEX-------------- */
 @keyframes zoom_menu {
   0% {
@@ -179,8 +180,7 @@ a {
   background-color: #fff;
 }
 
-.titre_resto2_index,
-.titre_resto2 {
+.titre_resto2_index {
   font-family: "Croissant one", cursive;
   font-size: 1.6rem;
   color: #d8852e;
@@ -190,8 +190,7 @@ a {
   font-weight: lighter;
 }
 
-.titre_resto3_index,
-.titre_resto3 {
+.titre_resto3_index {
   font-family: "Cookie", cursive;
   font-size: 2.8rem;
   color: #0936e0;
@@ -204,8 +203,7 @@ a {
   padding-right: 1rem;
 }
 
-.titre_resto4_index,
-.titre_resto4 {
+.titre_resto4_index {
   font-family: "Kaushan script", cursive;
   font-size: 2.3rem;
   color: #3d9339;
@@ -549,7 +547,7 @@ a {
 
 /********BREAKPOINTS********
 Format tablette = 1024px
-format smartphone = 500px
+format smartphone = 768px
 ****************************/
 
 
@@ -560,19 +558,22 @@ format smartphone = 500px
 @media (max-width: 1024px) {
 
 
-  .index_section_menu1,
-  .index_section_menu2,
-  .index_section_menu3,
-  .index_section_menu4 {
+  .section_menu1,
+  .section_menu2,
+  .section_menu3,
+  .section_menu4 {
     width: 45%;
     height: 45%;
     margin: 1rem auto;
   }
 
+  .fabposition {
+  margin-top: -1em;
+  }
   .carte_menu1,
   .carte_menu2,
   .carte_menu3,
-  .carte_menu4{
+  .carte_menu4 {
     width: 90%;
   }
 
@@ -617,16 +618,19 @@ format smartphone = 500px
      Diminution générale des polices, images et marges.
      Diminution de la police de "Prochainement" et augmentation du cadre */
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 
-  .index_section_menu1,
-  .index_section_menu2,
-  .index_section_menu3,
-  .index_section_menu4 {
+  .section_menu1,
+  .section_menu2,
+  .section_menu3,
+  .section_menu4 {
     width: 90%;
     height: 22%;
   }
 
+  .fabposition {
+  margin-top: 0em;
+  }
   .titre_menu1_index,
   .titre_menu2_index,
   .titre_menu3_index,
@@ -656,7 +660,7 @@ format smartphone = 500px
   .carte_menu1 .service h3,
   .carte_menu2 .service h3,
   .carte_menu3 .service h3,
-  .carte_menu4.service h3 {
+  .carte_menu4 .service h3 {
     font-size: 1rem;
   }
 
@@ -687,7 +691,8 @@ format smartphone = 500px
   }
   .prochainement {
     font-size: 1.1rem;
-    width: 60%;
+    width: 60%; 
+    display: 
   }
   .footer_lien {
     font-size: 1.1rem;
@@ -702,3 +707,4 @@ format smartphone = 500px
     text-align: center;
   }
 }
+
