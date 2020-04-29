@@ -194,7 +194,7 @@ a {
   font-family: "Cookie", cursive;
   font-size: 2.8rem;
   color: #0936e0;
-  background: -webkit-linear-gradient(left, #0936e0, #399dfa);
+  background: -webkit-linear-gradient(340deg, #0936e0, #399dfa);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: lighter;
@@ -207,7 +207,7 @@ a {
   font-family: "Kaushan script", cursive;
   font-size: 2.3rem;
   color: #3d9339;
-  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+  background: -webkit-linear-gradient(340deg, #3d9339, #bfff7e);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: lighter;
@@ -350,8 +350,8 @@ a {
   display: block;
   -webkit-clip-path: polygon(87% 46%, 100% 50%, 87% 54%, 0% 50%);
   clip-path: polygon(87% 46%, 100% 50%, 87% 54%, 0% 50%);
-   width: 30%;
-  height: 300%;
+  width: 35%;
+  height: 250%;
   margin-left: 0em;
   margin-top: 0em;
 }
@@ -359,8 +359,8 @@ a {
   display: block;
   -webkit-clip-path: polygon(13% 46%, 100% 50%, 13% 54%, 0% 50%);
   clip-path: polygon(13% 46%, 100% 50%, 13% 54%, 0% 50%);
-  width: 30%;
-  height: 300%;
+  width: 35%;
+  height: 250%;
   margin-left: 0em;
   margin-top: 0em;
 }
@@ -378,15 +378,16 @@ a {
 .carte_menu2 .service {
   margin-left: 1rem;
   margin-right: 1rem;
-}
+}/*
 .carte_menu2 .recette {
   margin-left: 8rem;
 }
 .carte_menu2 .prix {
   margin-right: 8rem;
-}
+}*/
 .carte_menu2 .service h3 {
   font-size: 1.4rem;
+  text-align: center;
 }
 
 .titre_resto2 {
@@ -411,10 +412,16 @@ a {
 
 /*---------------PAGE MENU 3--------------------------*/
 .titre_resto3 {
+  font-family: "Cookie", cursive;
   font-size: 4rem;
+  font-weight: lighter;
   margin-top: 3rem;
   padding-top: 4rem;
   margin-bottom: 4rem;
+  color: #0936e0;
+  background: -webkit-linear-gradient(340deg, #2b00ff, #63edff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .carte_menu3 {
@@ -438,7 +445,6 @@ a {
   height: 150%;
   margin-left: -3em;
   margin-top: 0.4em;
-  background-color: #0936e0;
 }
 .bande2_menu3 {
   display: block;
@@ -448,7 +454,18 @@ a {
   height: 150%;
   margin-right: -4em;
   margin-top: 0.4em;
-  background-color: #0936e0;
+}
+
+.bande_menu3_color1 {
+  background-color: #2b00ff;
+}
+
+.bande_menu3_color2 {
+  background-color: #0066ff;
+}
+
+.bande_menu3_color3{
+  background-color: #009dff;
 }
 /*---------------PAGE MENU 4--------------------*/
 .titre_resto4 {
@@ -553,7 +570,7 @@ format smartphone = 768px
 
 
 
-/* Format Tablette classique: Augmentation des cadres des menus sur toutes les pages. Diminution de l'image de la note.
+/* Format Tablette classique: Augmentation des cadres des menus sur toutes les pages.
   Diminution de la police des titres et de "Prochainement". Augmentation du cadre de prochainement */
 @media (max-width: 1024px) {
 
@@ -605,17 +622,33 @@ format smartphone = 768px
     font-size: 1.2rem;
   }
 
+  .bande1_menu3 {
+  display: block;
+  clip-path: polygon(48% 45%, 96% 45%, 100% 50%, 12% 50%, 6% 47%, 2% 44%, 0% 41%, 9% 45%);
+  -webkit-clip-path: polygon(48% 45%, 96% 45%, 100% 50%, 12% 50%, 6% 47%, 2% 44%, 0% 41%, 9% 45%);
+  width: 38%;
+  height: 150%;
+  }
+  .bande2_menu3 {
+  display: block;
+  clip-path: polygon(94% 41%, 89% 44%, 83% 45%, 37% 45%, 1% 45%, 0% 50%, 71% 50%, 86% 49%, 91% 46%, 94% 44%, 96% 39%);
+  -webkit-clip-path: polygon(94% 41%, 89% 44%, 83% 45%, 37% 45%, 1% 45%, 0% 50%, 71% 50%, 86% 49%, 91% 46%, 94% 44%, 96% 39%);
+  width: 38%;
+  height: 150%;
+  }
+
 
   .prochainement {
     font-size: 1.2rem;
     width: 40%;
   }
+  
 
 
 }
 
 /* Format Smartphone: Transformation des cadres des menus sur la page index.
-     Diminution générale des polices, images et marges.
+     Diminution générale des polices et marges.
      Diminution de la police de "Prochainement" et augmentation du cadre */
 
 @media (max-width: 768px) {
