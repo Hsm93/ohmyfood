@@ -296,7 +296,7 @@ a {
   -webkit-clip-path: polygon(52% 37%, 72% 38%, 100% 39%, 100% 40%, 77% 40%, 65% 39%, 36% 40%, 0 39%, 0 38%, 30% 38%);
   clip-path: polygon(52% 37%, 72% 38%, 100% 39%, 100% 40%, 77% 40%, 65% 39%, 36% 40%, 0 39%, 0 38%, 30% 38%);
   background-color: #3e141a;
-  width: 30%;
+  width: 33%;
   height: 300%;
   margin-left: 0em;
   margin-top: 3em;
@@ -306,7 +306,7 @@ a {
   -webkit-clip-path: polygon(52% 37%, 72% 38%, 100% 39%, 100% 40%, 77% 40%, 65% 39%, 36% 40%, 0 39%, 0 38%, 30% 38%);
   clip-path: polygon(52% 37%, 72% 38%, 100% 39%, 100% 40%, 77% 40%, 65% 39%, 36% 40%, 0 39%, 0 38%, 30% 38%);
   background-color: #3e141a;
-  width: 30%;
+  width: 33%;
   height: 300%;
   margin-left: 0em;
   margin-top: 3em;
@@ -378,20 +378,20 @@ a {
 .carte_menu2 .service {
   margin-left: 1rem;
   margin-right: 1rem;
-}/*
-.carte_menu2 .recette {
-  margin-left: 8rem;
 }
-.carte_menu2 .prix {
-  margin-right: 8rem;
-}*/
 .carte_menu2 .service h3 {
   font-size: 1.4rem;
   text-align: center;
 }
 
 .titre_resto2 {
+  font-family: "Croissant one", cursive;
   font-size: 3rem;
+  color: #d8852e;
+  background: -webkit-linear-gradient(340deg, #d8852e, #6e4ccc);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: lighter;
   margin-top: 3rem;
   padding-top: 6rem;
   margin-bottom: 6rem;
@@ -452,7 +452,7 @@ a {
   -webkit-clip-path: polygon(94% 41%, 89% 44%, 83% 45%, 37% 45%, 1% 45%, 0% 50%, 71% 50%, 86% 49%, 91% 46%, 94% 44%, 96% 39%);
   width: 38%;
   height: 150%;
-  margin-right: -4em;
+  margin-right: -3em;
   margin-top: 0.4em;
 }
 
@@ -469,7 +469,15 @@ a {
 }
 /*---------------PAGE MENU 4--------------------*/
 .titre_resto4 {
-  font-size: 3.5rem;
+  font-family: "Kaushan script", cursive;
+  font-size: 2.3rem;
+  color: #3d9339;
+  background: -webkit-linear-gradient(340deg, #3d9339, #bfff7e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: lighter;
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-top: 3rem;
   padding-top: 4rem;
   margin-bottom: 4rem;
@@ -489,25 +497,22 @@ a {
 }
 
 .bande1_menu4{
-  display: block;
   -webkit-clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
   clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
   width: 38%;
   height: 150%;
-  margin-left: -2em;
+  margin-left:  -3em;
   margin-top: 1.2em;
-  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
-
 }
 .bande2_menu4{
-  display: block;
   -webkit-clip-path: polygon(100% 40%, 75% 39%, 55% 39%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 46%);
   clip-path: polygon(100% 40%, 75% 39%, 55% 39%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 46%);
+  background: -webkit-linear-gradient(right, #3d9339, #bfff7e);
   width: 38%;
   height: 150%;
-  margin-right: -2em;
+  margin-right:  -3em;
   margin-top: 1.2em;
-  background: -webkit-linear-gradient(right, #3d9339, #bfff7e);
 }
 
 /*---------------PROCHAINEMENT-------------------------*/
@@ -636,15 +641,29 @@ format smartphone = 768px
   width: 38%;
   height: 150%;
   }
+  .bande1_menu4 {
+  display: block;
+  -webkit-clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+  width: 38%;
+  height: 150%;
+  }
 
+  .bande2_menu4 {
+  display: block;
+  -webkit-clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  background: -webkit-linear-gradient(right, #3d9339, #bfff7e);
+  width: 38%;
+  height: 150%;
+  }
 
   .prochainement {
     font-size: 1.2rem;
     width: 40%;
   }
   
-
-
 }
 
 /* Format Smartphone: Transformation des cadres des menus sur la page index.
@@ -676,13 +695,6 @@ format smartphone = 768px
   }
   .restaurant_h1 {
     font-size: 1.3rem;
-  }
-  .titre_resto1,
-  .titre_resto2,
-  .titre_resto3,
-  .titre_resto4 {
-    font-size: 1rem;
-    margin: auto;
   }
 
   .service {
@@ -722,6 +734,46 @@ format smartphone = 768px
   .resto_1_end h2 {
     font-size: 1.8rem;
   }
+
+  .service h3 {
+    text-align: center; 
+  }
+  .bande1_menu3 {
+  display: block;
+  clip-path: polygon(48% 45%, 96% 45%, 100% 50%, 12% 50%, 6% 47%, 2% 44%, 0% 41%, 9% 45%);
+  -webkit-clip-path: polygon(48% 45%, 96% 45%, 100% 50%, 12% 50%, 6% 47%, 2% 44%, 0% 41%, 9% 45%);
+  width: 38%;
+  height: 150%;
+  margin-left: auto;
+  }
+  .bande2_menu3 {
+  display: block;
+  clip-path: polygon(94% 41%, 89% 44%, 83% 45%, 37% 45%, 1% 45%, 0% 50%, 71% 50%, 86% 49%, 91% 46%, 94% 44%, 96% 39%);
+  -webkit-clip-path: polygon(94% 41%, 89% 44%, 83% 45%, 37% 45%, 1% 45%, 0% 50%, 71% 50%, 86% 49%, 91% 46%, 94% 44%, 96% 39%);
+  width: 38%;
+  height: 150%;
+  margin-right: auto;
+  }
+
+  .bande1_menu4 {
+  display: block;
+  -webkit-clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  background: -webkit-linear-gradient(left, #3d9339, #bfff7e);
+  width: 38%;
+  height: 150%;
+  margin-left: 0;
+  }
+  .bande2_menu4 {
+  display: block;
+  -webkit-clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  clip-path: polygon(100% 41%, 75% 39%, 55% 40%, 44% 40%, 26% 39%, 11% 40%, 0 39%, 0 43%, 10% 43%, 25% 43%, 36% 42%, 58% 43%, 69% 42%, 81% 43%, 100% 43%);
+  background: -webkit-linear-gradient(right, #3d9339, #bfff7e);
+  width: 38%;
+  height: 150%;
+  margin-right: 0;
+  }
+
   .prochainement {
     font-size: 1.1rem;
     width: 60%;
