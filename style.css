@@ -536,6 +536,11 @@ a {
 .mention {
   text-align: center;
 }
+.mentions {
+  text-align: center;
+  align-items: center;
+  color: #feca02;
+}
 
 /*---------------FOOTER-------------------*/
 .footer {
