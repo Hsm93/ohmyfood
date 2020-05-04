@@ -10,6 +10,24 @@
     transform: scale(1.2);
   }
 }
+/*------------ EFFET WIGGLE FOOTER-------------- */
+@keyframes wiggle {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-2px, 2px) rotate(1deg);
+  }
+  50% {
+    transform: translate(2px, -2px) rotate(0deg);
+  }
+  75% {
+    transform: translate(-2px, 2px) rotate(-1deg);
+  }
+  100% {
+    transform: translate(2px, -2px) rotate(1deg);
+  }
+}
 /*----------- POINTS DE SUSPENSION ----------------*/
 @keyframes points {
   0% {
@@ -22,6 +40,11 @@
 /*------------ EFFET ZOOM DES MENUS DE INDEX-------------- */
 .section_menu a:hover {
   animation: zoom_menu 2s forwards;
+}
+/*------------ EFFET WIGGLE FOOTER-------------- */
+.footer_animation a:hover {
+  color: white;
+  animation: wiggle 0.3s infinite;
 }
 /*----------- ANIMATION 3 POINTS DE PROCHAINEMENT ----------------*/
 .prochainement span {
