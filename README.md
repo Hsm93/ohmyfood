@@ -22,4 +22,4 @@ Projet 3 dans le cadre de formation Developpeur web OpenClassrooms
 
  - Utiliser la ligne de commande (Veuillez bien choisir un emplacement pour cloner en premier):
  
-  git clone https://github.com/Hsm93/ohmyfood/
+  - git clone https://github.com/Hsm93/ohmyfood/
