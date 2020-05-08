@@ -18,4 +18,8 @@ Projet 3 dans le cadre de formation Developpeur web OpenClassrooms
  - Assurer la cohérence graphique d'un site web
  - Mettre en place une structure de navigation pour un site web
  
+# Pour cloner cette répertoire: 
+
+ - Utiliser la ligne de commande (Veuillez bien choisir un emplacement pour cloner en premier):
  
+  git clone https://github.com/Hsm93/ohmyfood/
