@@ -2,7 +2,7 @@
 Projet 3 dans le cadre de formation Developpeur web OpenClassrooms
 
 
-#Languages utilisés:
+# Languages utilisés:
  - HTML5
  - CSS3
   
